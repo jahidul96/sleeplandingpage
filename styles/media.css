@@ -1,0 +1,418 @@
+@media(max-width:1176px) {
+    .textWrapper {
+        width: 70%;
+    }
+
+    .textWrapper>h1 {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 120.5%;
+    }
+
+    .leftActivityDiv {
+        max-width: 300px;
+        min-height: 250px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 25px;
+        padding: 15px 15px;
+
+    }
+}
+
+@media(max-width: 1028px) {
+    .leftActivityDiv {
+        max-width: 250px;
+
+
+    }
+}
+
+
+
+@media(max-width: 1000px) {
+    .reviewSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reviewImageWrapper {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .featuredCompany {
+        width: 60%;
+    }
+
+    .teamFeaturedSection {
+        width: 90%;
+    }
+
+
+
+    .plygonDiv {
+        display: none;
+    }
+
+    .rightCoinImgDiv {
+        display: none;
+    }
+
+    .leftCoinImgDiv {
+        display: none;
+    }
+
+    .rightMenImgDiv {
+        display: none;
+    }
+
+}
+
+
+
+@media(max-width:900px) {
+    .textWrapper>h1 {
+        font-size: 35px;
+    }
+
+    .textWrapper {
+        width: 90%;
+    }
+
+    .bedRoundSection {
+        max-width: 400px;
+        height: 400px;
+
+    }
+
+    .TwitterDiv {
+        top: 60px;
+        left: -80px;
+        text-align: right;
+    }
+
+    .TelegramDiv {
+        bottom: 80px;
+        left: -120px;
+        text-align: right;
+    }
+
+    .QuantitySleepDiv {
+        bottom: -50px;
+        text-align: center;
+    }
+
+    .SleepTimeDiv {
+        top: 70px;
+        right: -110px;
+        text-align: left;
+    }
+
+    .OffsetDiv {
+        bottom: 100px;
+        right: -90px;
+        text-align: left;
+    }
+
+}
+
+@media(max-width: 850px) {
+
+    .activityDiv {
+        justify-content: space-evenly;
+    }
+
+    .leftActivityDiv {
+        max-width: 350px;
+        margin-bottom: 30px;
+    }
+
+    .bedImageWrapper {
+        max-width: 500px;
+        max-height: 400px;
+    }
+}
+
+
+@media(max-width:767px) {
+    .logoImgStyle {
+        width: 80px;
+        height: 80px;
+    }
+
+    .topDownloadAppStyle {
+        width: 200px;
+        height: 30px;
+    }
+
+    .topDownloadAppStyle>p {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .topLeftWhiteDiv {
+        background-color: #fff;
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    .topLeftWhiteDiv>div {
+        width: 10px;
+        height: 10px;
+    }
+
+
+    .textWrapper {
+        width: 70%;
+        line-height: 130.5%;
+    }
+
+    .textWrapper>h1 {
+        font-size: 25px;
+        line-height: 125%;
+    }
+
+    .extraStyle {
+        padding: 3px 15px;
+    }
+
+    .leftActivityDiv {
+        max-width: 250px;
+    }
+
+    .featuredCompany {
+        width: 80%;
+        margin: 60px auto;
+    }
+
+    .teamFeaturedSection {
+        width: 100%;
+    }
+
+    .footer>img {
+        width: 100px;
+    }
+
+    .copyrightText {
+        font-size: 16px;
+        line-height: 130%;
+    }
+
+    .bedImageWrapper {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    .reviewTextDiv>h3 {
+        font-size: 14px;
+    }
+
+    .reviewBtn {
+        font-size: 14px;
+    }
+
+    .bottomleftDiv>h1 {
+        font-size: 20px;
+    }
+
+    .bottomShowcaseTextWrapper>h1 {
+        font-size: 20px;
+    }
+
+    .bottomShowcaseTextWrapper>p {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:724px) {
+
+
+    .WhitePositionStyle>h2 {
+        font-size: 16px;
+    }
+
+    .TwitterDiv {
+        top: 60px;
+        left: 0px;
+        text-align: right;
+    }
+
+    .TelegramDiv {
+        bottom: 80px;
+        left: 0px;
+        text-align: right;
+    }
+
+    .SleepTimeDiv {
+        top: 70px;
+        right: 0px;
+        text-align: left;
+    }
+
+    .OffsetDiv {
+        bottom: 120px;
+        right: 0px;
+        text-align: left;
+    }
+
+    .adddivStyle {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .bottomleftDiv {
+        text-align: center;
+    }
+
+    .addRightDiv>img {
+        height: 300px;
+    }
+
+    .downBtn {
+        font-size: 12px;
+    }
+
+}
+
+
+@media(max-width:590px) {
+    .leftActivityDiv {
+        max-width: 350px;
+    }
+
+    .topTeamFeaturedComp {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .topTeamFeaturedComp>div {
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .starDiv {
+        position: absolute;
+        top: -20px;
+        left: 0;
+    }
+
+    .starDiv>img {
+        max-width: 80px;
+        height: 80px;
+    }
+
+    .blueDiv {
+        width: 70px;
+        height: 70px;
+    }
+
+    .blueDiv>img {
+        width: 40px;
+        height: 60px;
+        object-fit: contain;
+    }
+
+    .yellowDiv {
+        width: 50px;
+        height: 50px;
+    }
+
+    .apollo>img {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media(max-width:575px) {
+    .navLeftDiv {
+        display: none;
+    }
+
+    .smallScreenMenu {
+
+        display: block;
+    }
+
+
+
+    .textWrapper {
+        width: 80%;
+        line-height: 140.5%;
+    }
+
+    .salyDownDivStyle>h1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
+@media(max-width:500px) {
+
+
+    .featuredCompany {
+        width: 100%;
+    }
+
+    .topFeaturedComp>div>img {
+        max-width: 60px;
+    }
+
+    .textWrapper>h1 {
+        font-size: 22px;
+        line-height: 125%;
+    }
+}
+
+@media(max-width:420px) {
+
+
+    .leftActivityDiv {
+        max-width: 320px;
+    }
+}
+
+@media(max-width:400px) {
+
+
+    .textWrapper>h1 {
+        font-size: 20px;
+        line-height: 145%;
+    }
+
+    .textWrapper {
+        width: 90%;
+        line-height: 140.5%;
+    }
+
+    .OffsetDiv {
+        bottom: 140px;
+        right: 0px;
+        text-align: left;
+    }
+}
+
+@media(max-width:360px) {
+    .footerContactDiv {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .footerContactDiv>p {
+        margin-bottom: 15px;
+    }
+
+
+}
