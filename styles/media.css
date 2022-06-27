@@ -412,7 +412,11 @@
     .TwitterDiv {
 
         height: 60px;
-        width: 120px;
+        width: 130px;
+    }
+
+    .TwitterDiv>p {
+        margin-right: 10px;
     }
 
     .TelegramDiv {
